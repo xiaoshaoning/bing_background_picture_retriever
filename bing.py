@@ -1,7 +1,8 @@
 # save the bing background picture
 
 import urllib.request
-page = urllib.request.urlopen('https://cn.bing.com')
+#page = urllib.request.urlopen('https://cn.bing.com')
+page = urllib.request.urlopen('https://cn.bing.com/?ensearch=1')
 bing_web_content = page.read()
 
 try:
